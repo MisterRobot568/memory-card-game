@@ -1,4 +1,5 @@
 import Card from "./Card.jsx";
+import "../styles/board-styling.css";
 //Board component should
 // 1) place cards on board
 // 2) shuffle cards on board when cards are clicked

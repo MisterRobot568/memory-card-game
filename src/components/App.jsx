@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Card from "./Card.jsx";
 import Board from "./Board.jsx";
+import Header from "./Header.jsx";
 // import "./App.css"
 
 // app should be responsible for
@@ -8,7 +9,14 @@ import Board from "./Board.jsx";
 function App() {
   const [pokemonList, setPokemonList] = useState([
     "charmander",
+    "charmeleon",
     "charizard",
+    "squirtle",
+    "wartortle",
+    "blastoise",
+    "bulbasaur",
+    "ivysaur",
+    "venusaur",
     "pichu",
     "pikachu",
     "raichu",
@@ -43,10 +51,8 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>Hello, world.</h1>
-        <p>Current Points:{points}</p>
-        <p>Best Score:{bestScore}</p>
+      <div className="page">
+        <Header currentScore={points} bestScore={bestScore} />
         <Board
           pokemonList={pokemonList}
           shuffleFunction={shuffle}
