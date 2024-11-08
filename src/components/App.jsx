@@ -53,6 +53,10 @@ function App() {
     <>
       <div className="page">
         <Header currentScore={points} bestScore={bestScore} />
+        <p className="description">
+          Get points by clicking on an image, but don't click on any more than
+          once!
+        </p>
         <Board
           pokemonList={pokemonList}
           shuffleFunction={shuffle}

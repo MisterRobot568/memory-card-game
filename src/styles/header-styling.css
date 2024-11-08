@@ -2,6 +2,21 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #ffcb05;
-  background-image: linear-gradient(#ffcb05, #3d7dca, #003a70);
+  justify-content: center;
+  /* background-color: #ffcb05; */
+  background-image: linear-gradient(
+    #ffcb05,
+    #3d7dca,
+    #003a70,
+    #3d7dca,
+    #817c68
+  );
+  width: 100vw;
+}
+
+.score-label {
+  height: 50px;
+}
+.score-and-label {
+  display: flex;
 }

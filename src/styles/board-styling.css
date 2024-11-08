@@ -2,4 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+  background-image: linear-gradient(
+    #ffcb05,
+    #3d7dca,
+    #003a70,
+    #3d7dca,
+    #ffcb05
+  );
 }
